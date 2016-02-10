@@ -1,0 +1,26 @@
+{
+  "name": "a2z-excel",
+  "version": "0.0.1",
+  "description": "This package expose several xls and xlsx manipulation functions.",
+  "main": "dist/a2z-excel",
+  "scripts": {
+    "preinstall": "npm install autodts",
+    "postinstall": "autodts link",
+    "prepublish": "tsc ; autodts generate",
+    "test": "node test/test.js"
+  },
+  "author": "Ohad Galor Kimchi",
+  "license": "MIT",
+  "typescript": {
+    "definition": "index.d.ts"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "xlsjs": "^0.7.5",
+    "xlsx": "^0.8.0"
+  },
+  "devDependencies": {
+    "autodts": "0.0.6",
+    "typescript": "^1.7.5"
+  }
+}
