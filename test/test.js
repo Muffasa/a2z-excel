@@ -1,14 +1,3 @@
-var example = require('..');
-
-example.Excel.staticSayHello('World!!@!@!@!@');
-
-
-
-
-
-
-
-
 
 var a2z_excel = require('..');
 var Excel = a2z_excel.Excel;
